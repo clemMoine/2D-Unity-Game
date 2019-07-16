@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3dbe51d7213c244159b8132c1434c8ec
+guid: 46eadb36ecaaa4cea84602343984f039
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5390859190950735306
-    second: Player_Land_0
+      213: -1193118917850865341
+    second: Player_Fall_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,22 +87,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Land_0
+      name: Player_Fall_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.20833333, y: 0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c74c6f28249041cbbcd24afbe9d25cb
-      internalID: -5390859190950735306
+      spriteID: 06263084ba22548ccb5958c350399d9c
+      internalID: -1193118917850865341
       vertices: []
       indices: 
       edges: []
@@ -110,7 +110,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8bb86b7f160b54b199211bf620675839
+    spriteID: b9f6db24a5d1343bdb644c89b3a71f60
     internalID: 0
     vertices: []
     indices: 
