@@ -2535,11 +2535,11 @@ GameObject:
   - component: {fileID: 976357266}
   - component: {fileID: 976357265}
   - component: {fileID: 976357268}
-  - component: {fileID: 976357264}
   - component: {fileID: 976357267}
   - component: {fileID: 976357269}
   - component: {fileID: 976357271}
   - component: {fileID: 976357270}
+  - component: {fileID: 976357264}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2560,6 +2560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 976357267}
+  controller: {fileID: 976357268}
   runSpeed: 40
 --- !u!212 &976357265
 SpriteRenderer:
@@ -2618,7 +2619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976357263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1282362215}
@@ -2660,10 +2661,10 @@ MonoBehaviour:
   m_JumpForce: 700
   m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 567
+    m_Bits: 512
   m_GroundCheck: {fileID: 1282362215}
   m_CeilingCheck: {fileID: 185821788}
   m_CrouchDisableCollider: {fileID: 0}
@@ -2711,7 +2712,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016947538, y: 0.044746384}
+  m_Offset: {x: -0.009320825, y: 0.04474649}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.20833333, y: 0.375}
@@ -2722,7 +2723,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34813416, y: 0.29304382}
+  m_Size: {x: 0.3633877, y: 0.29304355}
   m_EdgeRadius: 0
 --- !u!58 &976357271
 CircleCollider2D:
@@ -2737,9 +2738,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.2}
+  m_Offset: {x: -0.01523301, y: -0.20855916}
   serializedVersion: 2
-  m_Radius: 0.1713357
+  m_Radius: 0.16769621
 --- !u!1 &1282362214
 GameObject:
   m_ObjectHideFlags: 0
